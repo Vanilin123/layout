@@ -1,0 +1,149 @@
+.flex {
+    display: flex;
+  }
+
+.about {
+    margin-bottom: 100px;
+  }
+  
+  .about__title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 2px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+  }
+  
+  .about__descr {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 1235px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+  }
+  
+  .about__content {
+    justify-content: space-between;
+  }
+  
+  .about__content-left {
+    margin-right: 32px;
+    align-items: flex-end;
+    width: calc((100%-32px)/2);
+    min-height: 622px;
+    background-image: url(../img/about-us-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+  }
+  
+  .about__content-mobile {
+    display: none;
+  }
+  
+  .about__content-wrap {
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 196px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 32px;
+  }
+  
+  .about__left-descr {
+    margin: 0;
+    margin-right: 20px;
+    max-width: 454px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    border-radius: 32px;
+  }
+  
+  .about__button {
+    min-width: 175px;
+    min-height: 60px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    border: 3px solid #ff9900;
+    background-color: inherit;
+    padding: 17px 36px;
+  }
+  
+  .about__button:focus,
+  .about__button:hover,
+  .about__button:active {
+    border: none;
+  }
+  
+  .about__content-right {
+    width: calc((100%-32px)/2);
+    min-height: 622px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .about__content-right-card {
+    align-items: center;
+    padding: 65px 60px 65px 60px;
+    width: 100%;
+    min-height: 295px;
+    height: 100%;
+    outline: 1px solid #cacaca;
+    border-radius: 32px;
+  }
+  
+  .about__content-right-card:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  
+  .about__img {
+    margin-right: 50px;
+    max-width: 190px;
+    height: 165px;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .about__img-top {
+    background-image: url(../img/about-us2.svg);
+  }
+  
+  .about__img-bottom {
+    background-image: url(../img/about-us1.svg);
+  }
+  
+  .about__content-wrapper {
+    max-width: 460px;
+  }
+  
+  .about__right-title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+  }
+  
+  .about__right-descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    border-radius: 32px;
+  }
+  

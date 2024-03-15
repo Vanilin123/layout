@@ -1,0 +1,28 @@
+.footer__social{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social__item:not(:last-child){
+    margin-right: 25px;
+}
+.social__link{
+    display: flex;
+    align-items: flex-start;
+    width: 60px;
+    height: 60px;
+}
+.social__link{
+    fill: var(--svg-gray);
+    transition: fill var(--short);
+    outline: none;
+}
+.social__link:hover{
+    fill:var(--orange)
+}
+.social__link:focus:not(:active){
+outline: 2px solid var(--orange);
+outline-offset: 3px;
+}
+.social__link:active{
+    fill: var(--dark-orange);
+}

@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+img,svg{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size: var(--def-fs);
+    line-height: var(--def-lh);
+    color: var(--dark);
+    background-color: var(--white);
+}
+.container{
+    max-width: var(--container-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+/* Сброс базовых настроик */
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.list-reset{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+.btn-reset{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.section-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: var(--regular);
+}
+.text{
+    Font-size: 16px;
+Line-height: 32px;
+color:black;
+font-style: var(--regular);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}

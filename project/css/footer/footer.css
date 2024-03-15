@@ -1,0 +1,125 @@
+.footer {
+padding-top: 94px;
+padding-bottom: 10px;
+background-color: var(--color-gray-blue);;
+}
+  
+.footer__content {
+display: flex;
+margin-bottom: 91px;
+}
+  
+.footer__left {
+margin-right: auto;
+}
+  
+.footer__logo {
+margin-bottom: 21px;
+}
+  
+.footer___list-social {
+display: flex;
+}
+  
+.footer__item-social:not(:last-child) {
+margin-right: 21px;
+}
+  
+.footer__link-social {
+outline: none;
+}
+  
+.footer-nav__list {
+display: flex;
+flex-wrap: wrap;
+max-width: 445px;
+gap: 17px 129px;
+}
+  
+.footer-nav__item {
+width: calc((100% / 3) - (131px * 2) / 3);
+}
+  
+.footer-nav__link {
+color: var(--white-color);
+}
+  
+.footer-copyright {
+padding-top: 25px;
+background: url(../../img/footer/footer.png) repeat-x top center;
+}
+  
+.footer__author {
+display: block;
+text-align: center;
+color: var(--grey-color);;
+line-height: 17px;
+}
+
+.sochial{
+    width: 24px;
+    height: 24px;
+}
+
+.form__checkbox-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--white-color);
+    transform: translateY(-50%);
+}
+
+.form__checkbox-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    background: url(../../img/about/checkbox.svg) center center no-repeat;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 1
+}
+.form__checkbox-input:checked + .form__checkbox-text::after {
+    opacity: 1;
+}
+.form__textarea:focus {
+    background-color: var(--color-gray-blue);
+    border-color: var(--color-purple-blue);
+  }
+  
+  .form__textarea:hover {
+    background-color: var(--color-gray-blue);
+    border-color: var(--white-color);
+  }
+  
+  .form__textarea:active {
+    background-color: transparent;
+    border-color: var(--white-color);
+  }
+  
+  .footer__link-social {
+    outline: none;
+  }
+  
+  .footer__social-path {
+    -webkit-transition: fill var(--animation-transition);
+    -o-transition: fill var(--animation-transition);
+    transition: fill var(--animation-transition);
+  }
+  
+  .footer__link-social:focus-visible .footer__social-path {
+    fill: var(--color-purple-blue);
+  }
+  
+  .footer__link-social:hover .footer__social-path {
+    fill: var(--color-dark-purple);
+  }
+  
+  .footer__link-social:active .footer__social-path {
+    fill: var(--color-deep-purple);
+  }

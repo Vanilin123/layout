@@ -1,0 +1,241 @@
+
+@media (max-width:991px){
+    .hero{
+        padding-top: 126px;
+        padding-bottom: 131px;
+}
+    .hero__h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero__p{
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 63px;
+    }
+    .list__teachers{
+        margin-bottom: 23px;
+    }
+    .courses__content{
+        height: 376px;
+    }
+    .about__block {
+        margin-bottom: 115px;
+    }
+    .about{
+        padding-bottom: 74px;
+    }
+    .about__p{
+        margin-top: 18px;
+    }
+    .about__img{
+        padding-left: 255px;
+    }
+    
+    .about__img::before{
+        width: 211px;
+        height: 187px;
+        top: 50%;
+        left: 15px;
+    }
+    .about__img-1{
+        padding-left: 0;
+    }
+    .about__img-1::before{
+        top: -66%;
+    }
+    .about__img-2{
+        padding-left: 0;
+    }
+    .about__img-2::before{
+        top: -88%;
+    }
+    .about__img-3{
+        padding-left: 0;
+    }
+    .about__img-3::before{
+        top: -68%;
+    }
+    .about__flex{
+        margin-bottom: 15px;
+    }
+    .teachers{
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:767px){
+    .header-logo{
+        margin-bottom: 30px;
+    }
+    .header-nav{
+        overflow-x: scroll;
+    }
+
+    .hero{
+        padding-top: 77px;
+    }
+
+    .about{
+        padding-bottom: 55px;
+    }
+    .about__block {
+        margin-bottom: 112px;
+    }
+    .about__img{
+        padding-left: 195px;
+    }
+    
+    .about__img::before{
+        width: 150px;
+        height: 134px;
+        left: 15px;
+        bottom: 50%;
+        transform: translateY(-125%);
+    }
+    .about__img-1{
+        padding-left: 0;
+    }
+    .about__img-1::before{
+        top: -51%;
+    }
+    .about__img-2{
+        padding-left: 0;
+    }
+    .about__img-2::before{
+        top: -52%;
+    }
+    .about__img-3{
+        padding-left: 0;
+    }
+    .about__img-3::before{
+        top: -52%;
+    }
+    .teachers {
+        padding-bottom: 75px;
+    }
+    .courses__content{
+        height: 473px;
+        padding: 30px;
+    }
+    .courses__item-btn{
+    width: 180px;
+    height: 60px;
+    padding: 20.5px 48px 20.5px 48px;
+
+    }
+}
+
+@media (max-width:575px){
+    .header-logo {
+        margin-bottom: 20px;
+    }
+    .header {
+        padding-bottom: 23px;
+    }
+    .hero{
+            padding-top: 50px;
+            padding-bottom: 50px;
+    }
+        .hero__h1{
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 5px;            
+        }
+    
+        .hero__p{
+            font-size: 16px;
+            line-height: 21px;
+            margin-bottom: 48px;            
+        }
+
+        .hero__btn{
+            font-size: 16px;
+            line-height: 19px;
+            width: 213px;
+            height: 60px;
+            padding: 20.5px 53.5px 20.5px 53.5px;  
+        }
+
+        .about__list{
+            margin-bottom: 30px;
+        }
+
+        .about{
+            padding-top: 50px;
+            padding-bottom: 29px;
+        }
+        .about__img{
+          padding-left: 15px;
+        }
+        
+        .about__img::before{
+            display: none;
+        }
+        .about__img-1{
+            padding-left: 110px;
+        }
+        .about__img-1::before{
+            top: 50%;
+        }
+        .about__img-2{
+            padding-left: 110px;
+        }
+        .about__img-2::before{
+            top: 55%;
+        }
+        .about__img-3{
+            padding-left: 110px;
+        }
+        .about__img-3::before{
+            top: 61%;
+        }
+
+        .about__h2{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26px;
+            margin-bottom: 0;
+        }
+
+        .about__p{
+            margin-top: 0;
+        }
+        .about__block {
+            margin-bottom: 25px;
+        }
+        .teachers{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .teachers__img {
+            margin-bottom: 30px;
+        }
+        .teachers__h4{
+            margin-bottom: 7px;
+        }
+        .teachers__h2{
+        font-size: 20px;
+        line-height: 20px;
+        }
+
+        .courses{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .courses__h2{
+font-size: 20px;
+line-height: 20px;
+margin-bottom: 15px;
+
+        }
+        .list__teachers2{
+            margin-bottom: 30px;
+        }
+        .list__courses2{
+            margin-bottom: 30px;
+        }
+    }

@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+
+img,svg{
+  max-width: 100%;
+}
+
+h2{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  font-family:'TTFirsNeue', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.list-reset{
+  margin-top:0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset{
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+
+.container {
+max-width: 1290px;
+margin: 0 auto;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+picture img {
+  width: 100%;
+}
+
+.def__btn{
+    height: 50px;
+    padding: 15px 22px 15px 22px;
+    background-color: #FF6E30;
+    border: solid 3px #FF6E30;
+    margin: 0;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+transition: background-color 0.3s;
+}
+
+.def__btn:hover{
+background-color: #BC572B;
+}
+.def__btn:focus{
+  background-color: #FF6E30;
+  border:solid 3px #CE4307 ;
+}
+.def__btn:active{
+    background-color: #CE4307;
+}
+
+.input-def:focus{
+border: solid 3px #FF6E30;
+}
+
+.input-def:active{
+color: #ffffff;
+border: none;
+}
+
+.input-def:hover{
+  color: #FF6E30;
+}
+.block{
+  display: block;
+}
+
+@media (max-width: 1352px) {
+.container {
+  margin: 0 31px;
+  width: auto;
+}
+}
+
+@media (max-width: 884px) {
+  .container {
+    margin: 0 27px;
+    width: auto;
+  }
+  }
+
+  @media (max-width: 560px) {
+    .container {
+      margin: 0 21px;
+      width: auto;
+    }
+
+    .def__btn{
+      padding: 15px 22px 15px 22px;
+      font-family: 'Roboto';
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    }
+/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=global.css.map */

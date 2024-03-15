@@ -1,0 +1,76 @@
+.albom{
+padding-top: 94px;
+padding-bottom: 93px;
+}
+  
+.albom__h2{
+color: var(--color-black-blue);;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+margin-bottom: 12px;
+}
+
+.albom__text{
+color: var(--grey-color);;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+margin-bottom: 6px;
+}
+  
+.albom__div{
+display: grid;
+grid-template-columns: repeat(12, minmax(0, 80px));
+gap: 30px;
+}
+  
+.albom__head-div{
+grid-column: 4 span;
+}
+  
+.albom__list{
+grid-column: 8 span;
+}
+  
+.albom__list-items{
+display: grid;
+grid-template-columns: repeat(8, minmax(0, 80px));
+gap: 29px 30px;
+padding-top: 14px;
+}
+  
+.albom__items{
+position: relative;
+grid-column: 2 span;
+}
+
+.albom__block{
+border: 1px solid var(--color-lavender);;
+padding-top: 14px;
+padding-left: 15px;
+padding-bottom: 15px;
+}
+
+.albom__items-span{
+color: var(--grey-color);;
+font-size: 12px;
+font-weight: 400;
+}
+  
+.albom__items-h4{
+color: var(--color-black-blue);;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+
+.albom__country{
+position: absolute;
+top: 0;
+right: 0;
+width: 24px;
+height: 20px;
+background-color: var(--color-black-blue);;
+padding: 4px;
+}

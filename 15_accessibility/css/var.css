@@ -1,0 +1,31 @@
+:root{
+    /* ШРИФТЫ */
+    /* жирность шрифтов */
+    --regular:400;
+    --medium:500;
+    --semibold:600;
+    --bold:700;
+    --extrabold: 800;
+    /* размерность шрифтов  */
+    --def-fs: 16px;
+    --def-lh: 20px;
+    /* цвета шрифтов */
+   --dark: #333333;
+   --darl-bg:#222222;
+   --dark-light:#414141;
+   --white:#ffffff;
+   --grean:#97EE3F;
+   --orange:#FF9900;
+   --dark-orange:#E1670E;
+   --gray:#576b8f;
+   --svg-gray:#7C7C7C;
+   --lightgray:#CACACA;
+   --orange-transp:rgba(255,153,0,0.7);
+   --dark-grey:#666666;
+   --black:#000000;
+   /* Container */
+   --container-max-width: 1870px;
+   --container-padding:50px;
+/* Переходы транзишина */
+--short: .3s;
+}
